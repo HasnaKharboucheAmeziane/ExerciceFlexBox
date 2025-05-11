@@ -12,6 +12,8 @@ body {
 
 #imgProduit {
   width: 50%;
+  object-fit: cover;
+  aspect-ratio:2;
 }
 
 #sectH1 {
