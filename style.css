@@ -13,7 +13,7 @@ body {
 #imgProduit {
   width: 50%;
   object-fit: cover;
-  aspect-ratio:2;
+  aspect-ratio: 2;
 }
 
 #sectH1 {
@@ -49,9 +49,11 @@ h1 {
     height: 50%;
     border-radius: 5%;
     margin-bottom: 1%;
-    aspect-ratio: 1; /* Assure un ratio carré. On aurait pu mettre height 320px */
+    aspect-ratio: 1;
+    /* Assure un ratio carré. On aurait pu mettre height 320px */
     object-fit: cover;
   }
+
   color: #333333;
   box-shadow: 0 4px 15px #00000029;
   padding: 2%;
@@ -84,11 +86,13 @@ h1 {
     font-size: 15px;
     line-height: 20px;
   }
+
   #imgProduit {
     width: 50%;
     object-fit: cover;
     aspect-ratio: 2;
   }
+
   #sectH1 p {
     font-size: 12px;
     text-align: center;
@@ -119,6 +123,7 @@ h1 {
     flex-direction: column;
     margin-bottom: 15px;
   }
+
   .card {
     color: #333333;
     box-shadow: 0 4px 15px #00000029;
@@ -126,5 +131,15 @@ h1 {
     width: 84%;
     align-self: anchor-center;
     text-align: center;
+  }
+
+  .sect1 {
+    display: flex;
+    flex-direction: column;
+
+    #imgProduit {
+      width: 100%;
+      height: 335px;
+    }
   }
 }
